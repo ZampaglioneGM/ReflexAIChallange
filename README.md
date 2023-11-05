@@ -1,19 +1,36 @@
 # ReflexAIChallange
 
-Installation
-Clone the repository: GitHub - ZampaglioneGM/ReflexAIChallange 
+## Installation
 
-I recommend installing both Extensions on VSC: Playwright Test for VSCode & Cucumber.
+## Clone this repository
+- GitHub - ZampaglioneGM/ReflexAIChallange 
+- I recommend installing both Extensions on VSC: Playwright Test for VSCode & Cucumber.
 
+## Install dependencies
+```bash
 npm install
+```
+
 or
 
-Install Playwight: npm init playwright@latest --yes -- --quiet --browser=chromium --browser=firefox --browser=webkit --gha
+```bash
+npm init playwright@latest --yes -- --quiet --browser=chromium --browser=firefox --browser=webkit --gha
 
 npm i @cucumber/cucumber -D
 
 npm i ts-node -D
+```
 
-Clone and npm run dev GitHub - ReflexAI/qa-eng-test: QA Eng test code 
+## Clone Dev Repository
+- [ReflexAI/qa-eng-test: QA Eng test code](https://github.com/ReflexAI/qa-eng-test)
 
-Run tests with: npm test
+## Run the development server
+
+```bash
+npm run dev
+```
+
+## Execute tests
+```bash
+npm test
+```
