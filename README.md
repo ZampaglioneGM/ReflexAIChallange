@@ -26,6 +26,7 @@ npm i ts-node -D
 
 ## Run the development server
 
+To execute tests, you will need to run this since the suite is pointing to http://localhost:3000 
 ```bash
 npm run dev
 ```
