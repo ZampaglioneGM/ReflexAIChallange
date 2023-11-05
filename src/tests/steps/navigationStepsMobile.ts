@@ -4,7 +4,7 @@ import { sharedContext } from "../../../drivers/browserContext";
 import { navigateTo } from "../../../drivers/navigationDrivers";
 
 Before(async () => {
-  sharedContext.browser = await chromium.launch({ headless: false });
+  sharedContext.browser = await chromium.launch({ headless: true });
   sharedContext.page = await sharedContext.browser.newPage();
   await sharedContext.page.setViewportSize({ width: 360, height: 728 });
 });
